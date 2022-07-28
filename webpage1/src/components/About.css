@@ -1,0 +1,102 @@
+.c{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.c-left{
+    flex:1;
+    height: 100%;
+    width: 50%;
+   
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.c-card-bg{
+    background-color: grey;
+    height: 70%;
+    width: 70%;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+
+.c-card{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+}
+.c-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.c-right{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c-heading{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.c-txt1{
+    font-size: 13px;
+}
+
+.c-txt2{
+    font-size: 13px;
+}
+
+.c-award{
+    display: flex;
+    flex-direction: row;
+    text-align: initial;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.c-award-img{
+    height: 20%;
+    width: 20%;
+    border-radius:10px;
+}
+
+.c-award-txt{
+    font-size: 13px;
+}
+
+.award-txt{
+    display: flex;
+    flex-direction: column;
+    text-align:initial;
+    align-items: initial;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.c-award-head{
+    font-size: 15px;
+    font-weight: 500;
+}

@@ -1,0 +1,138 @@
+.g{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.g-left{
+    flex: 1;
+    position: relative;
+}
+
+
+
+.g-back{
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 51%, 0% 0%);
+    background-color: #75EFA6;
+    height: 80%;
+    width: 90%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.g1{
+  display: flex; 
+   align-items: center; 
+   margin: 20px 0 0 20px;   
+}
+
+.g2{
+    display: flex; 
+    align-items: center;
+    margin: 20px 0  0 20px;  
+}
+
+.g3{
+    display: flex; 
+    align-items: center;
+    margin: 20px 0  0 20px;  
+}
+
+.g-head{
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
+.g-phone{
+height: 25px;
+width: 25px;
+margin-right: 20px;
+border-radius: 50%;
+}
+
+.g-mail{
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.g-dest{
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.gg{
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    position: absolute;
+    justify-content: space-evenly;
+    width: 60%;;
+}
+
+
+.g-right{
+    flex: 1;
+    
+}
+
+.g1-right{
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.g1-head{
+    font-size: 13px;
+    
+}
+
+
+
+form{
+    margin: 20px 0;
+}
+
+input{
+    outline: 0;
+    height: 50%;
+    width: 70%;
+    border: 0;
+    border-bottom: 1px solid grey;
+    margin: 10px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+textarea{
+    outline: 0;
+    width: 85%;
+    height: 50%;
+    margin: 20px 0;
+    font-size: 13px;
+}
+
+button{
+    height: 5vh;
+    width: 20%;
+    background-color: #73F689;
+    border: 1px solid #73F689;
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
